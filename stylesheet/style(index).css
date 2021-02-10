@@ -1,0 +1,36 @@
+body {
+	background-color: gray;
+	font-family: "Century Gothic",sans-serif;
+	background-image: url('../images/image.jpg') ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+	#name,#email,#age{
+		width:400px;
+		height: 20px;
+	}
+	p{
+		font-size: 20px;
+	}
+
+	#main{
+
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+
+		color: white;
+
+
+		padding-left: 10px;
+		margin-left: 350px;
+		margin-right: 350px;
+		text-align: center;
+	}
+	#submit {
+		width:100px;
+		height: 40px;
+		margin-bottom: 20px;
+	}
